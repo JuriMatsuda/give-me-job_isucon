@@ -3,7 +3,7 @@ require 'mysql2'
 require 'rack-flash'
 require 'shellwords'
 #testdaisuke
-
+#testfk
 module Isuconp
   class App < Sinatra::Base
     use Rack::Session::Memcache, autofix_keys: true, secret: ENV['ISUCONP_SESSION_SECRET'] || 'sendagaya'
