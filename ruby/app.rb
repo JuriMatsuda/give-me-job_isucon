@@ -4,9 +4,8 @@ require 'rack-flash'
 require 'shellwords'
 require 'rack-mini-profiler'
 require 'rack-lineprof'
-#testdaisuke
-#testfk
-#testfk2
+require 'erubis'
+
 module Isuconp
   class App < Sinatra::Base
     use Rack::Session::Memcache, autofix_keys: true, secret: ENV['ISUCONP_SESSION_SECRET'] || 'sendagaya'
