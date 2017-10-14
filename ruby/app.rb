@@ -2,6 +2,8 @@ require 'sinatra/base'
 require 'mysql2'
 require 'rack-flash'
 require 'shellwords'
+require 'rack-mini-profiler'
+require 'rack-lineprof'
 #testdaisuke
 #testfk
 #testfk2
